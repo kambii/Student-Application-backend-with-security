@@ -1,10 +1,9 @@
-package com.example.studentapplication.controller;
+package com.example.studentapplication.student.controller;
 
-import com.example.studentapplication.model.Student;
-import com.example.studentapplication.service.StudentService;
+import com.example.studentapplication.student.model.Student;
+import com.example.studentapplication.student.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

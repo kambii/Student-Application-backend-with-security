@@ -1,9 +1,8 @@
-package com.example.studentapplication.service;
+package com.example.studentapplication.student.service;
 
-import com.example.studentapplication.model.Student;
-import com.example.studentapplication.repository.StudentRepository;
+import com.example.studentapplication.student.model.Student;
+import com.example.studentapplication.student.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
